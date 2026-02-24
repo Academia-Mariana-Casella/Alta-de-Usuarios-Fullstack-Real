@@ -1,4 +1,4 @@
-# 01 - Instalacion de Proyectos
+﻿# 01 - Instalacion de Proyectos
 
 Guia paso a paso para levantar el proyecto fullstack (Django + Vue).
 
@@ -19,11 +19,7 @@ npm --version
 
 ## 2. Abrir el proyecto
 
-En una terminal, ir a la carpeta raiz:
-
-```powershell
-cd abm-usuarios-vivo
-```
+Abrir una terminal en la carpeta raiz del proyecto.
 
 ## 3. Backend (Django)
 
@@ -73,7 +69,7 @@ Backend disponible en:
 Abrir una segunda terminal y ejecutar:
 
 ```powershell
-cd c:\Users\m_cas\Documents\__Bootcamps\abm-usuarios-vivo\frontend
+cd frontend
 npm install
 copy .env.example .env
 npm run dev
