@@ -22,7 +22,7 @@ npm --version
 En una terminal, ir a la carpeta raiz:
 
 ```powershell
-cd c:\Users\m_cas\Documents\__Bootcamps\abm-usuarios-vivo
+cd abm-usuarios-vivo
 ```
 
 ## 3. Backend (Django)

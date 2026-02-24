@@ -82,7 +82,7 @@ Archivo: `backend/apps/users/models.py`
 
 Se definio un modelo `User` custom:
 
-- hereda de `AbstractBaseUser` y `PermissionsMixin`
+- hereda de [`AbstractBaseUser`](https://docs.djangoproject.com/en/6.0/topics/auth/customizing/#django.contrib.auth.models.AbstractBaseUser) y [`PermissionsMixin`](https://docs.djangoproject.com/en/6.0/topics/auth/customizing/#django.contrib.auth.models.PermissionsMixin)
 - usa `email` como identificador principal (`USERNAME_FIELD = "email"`)
 - campos: `email`, `is_staff`, `is_active`, `date_joined`
 
